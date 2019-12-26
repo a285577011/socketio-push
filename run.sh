@@ -1,9 +1,9 @@
 #!/bin/sh
-
+cd bin
 case $1 in
 	start)
-		chmod +x ./bin/pushservice
-		nohup ./bin/pushservice 2>&1 >> pushservice.log 2>&1 /dev/null &
+		chmod +x ./pushservice
+		nohup ./pushservice 2>&1 >> ../pushservice.log 2>&1 /dev/null &
 		echo "服务已启动..."
 		sleep 1
 	;;
@@ -13,12 +13,12 @@ case $1 in
 		sleep 1
 	;;
 	restart)
-		chmod +x ./bin/pushservice
+		chmod +x ./pushservice
 		pid=$(ps x | grep -w "pushservice" | grep -v grep | awk '{print $1}')
 		#echo $pid
 		if [ ! "$pid" ];then
 		chmod +x pushservice
-		nohup ./bin/pushservice 2>&1 >> pushservice.log 2>&1 /dev/null &
+		nohup ./pushservice 2>&1 >> ../pushservice.log 2>&1 /dev/null &
 		echo "服务已启动..."
 		sleep 1
 		else
@@ -26,7 +26,7 @@ case $1 in
 		#echo "服务已重启..."
 		#echo $pid
 		sleep 1
-		nohup ./bin/pushservice 2>&1 >> pushservice.log 2>&1 /dev/null &
+		nohup ./pushservice 2>&1 >> ../pushservice.log 2>&1 /dev/null &
 		echo "服务已重启..."
 		fi
 		sleep 1

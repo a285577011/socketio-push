@@ -20,7 +20,7 @@ func DBInitNew() *DBInit {
 
 func (dbInit *DBInit) InitDatabase() {
 	if dbInit.Db == nil {
-		beego.LoadAppConfig("ini", "./conf/db.conf")
+		beego.LoadAppConfig("ini", "../conf/db.conf")
 		orm.RegisterDriver("mysql", orm.DRMySQL)
 		dbType := "mysql"
 		host:=beego.AppConfig.String("mysql::host")

@@ -299,3 +299,147 @@ disconnect:connId- 2
 2019-12-26 10:17:51 meet error: websocket: close 1006 (abnormal closure): unexpected EOF
 connected: 4
 join:imie-868524021352653
+2019/12/26 10:23:33.767 [1;34m[I][0m [device.go:15]  Connect to [mysql] database with conn: [root:16273849@tcp(192.168.66.191:3307)/gcs?charset=utf8] 
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /grouppush/*any           --> socketio/httppush.(*Push).GroupPush-fm (2 handlers)
+[GIN-debug] POST   /singlepush/*any          --> socketio/httppush.(*Push).SinglePush-fm (2 handlers)
+[GIN-debug] GET    /socket.io/*any           --> github.com/gin-gonic/gin.WrapH.func1 (2 handlers)
+[GIN-debug] POST   /socket.io/*any           --> github.com/gin-gonic/gin.WrapH.func1 (2 handlers)
+start...
+connected: 1
+connected: 2
+join:imie-868524021352653
+join:imie-868524021281324
+connected: 3
+join:imie-hyy
+disconnect:imie- 868524021352653
+disconnect:connId- 2
+2019-12-26 10:42:16 meet error: websocket: close 1006 (abnormal closure): unexpected EOF
+disconnect:imie- 868524021281324
+disconnect:connId- 1
+2019-12-26 10:47:51 meet error: websocket: close 1006 (abnormal closure): unexpected EOF
+connected: 4
+join:imie-868524021281324
+disconnect:imie- 868524021281324
+disconnect:connId- 4
+2019-12-26 10:53:09 meet error: websocket: close 1006 (abnormal closure): unexpected EOF
+connected: 5
+join:imie-868524021281324
+connected: 6
+join:imie-868524021352653
+disconnect:imie- 868524021281324
+disconnect:connId- 5
+2019-12-26 11:06:24 meet error: websocket: close 1006 (abnormal closure): unexpected EOF
+connected: 7
+join:imie-868524021281324
+disconnect:imie- 868524021352653
+disconnect:connId- 6
+2019-12-26 11:14:13 meet error: read tcp 192.168.66.166:5050->192.168.66.209:50157: i/o timeout
+2019/12/26 11:19:51 Shutdown Server ...
+2019/12/26 11:19:51 Server exiting
+the target config file: ../conf/db.conf don't exist
+map[conn:: maxIdle: password:]
+panic: dial tcp :0: connect: connection refused
+
+goroutine 1 [running]:
+github.com/a285577011/socketio-push/models/redis.NewRedis(0x28)
+	/mnt/hgfs/www/golang/socketserver/models/redis/redis.go:71 +0x422
+github.com/a285577011/socketio-push/models/redis.init.0()
+	/mnt/hgfs/www/golang/socketserver/models/redis/redis.go:263 +0x22
+the target config file: ../conf/db.conf don't exist
+map[conn:: maxIdle: password:]
+panic: dial tcp :0: connect: connection refused
+
+goroutine 1 [running]:
+github.com/a285577011/socketio-push/models/redis.NewRedis(0x28)
+	/mnt/hgfs/www/golang/socketserver/models/redis/redis.go:71 +0x422
+github.com/a285577011/socketio-push/models/redis.init.0()
+	/mnt/hgfs/www/golang/socketserver/models/redis/redis.go:263 +0x22
+the target config file: ../conf/db.conf don't exist
+map[conn:: maxIdle: password:]
+panic: dial tcp :0: connect: connection refused
+
+goroutine 1 [running]:
+github.com/a285577011/socketio-push/models/redis.NewRedis(0x28)
+	/mnt/hgfs/www/golang/socketserver/models/redis/redis.go:71 +0x422
+github.com/a285577011/socketio-push/models/redis.init.0()
+	/mnt/hgfs/www/golang/socketserver/models/redis/redis.go:263 +0x22
+the target config file: ../conf/db.conf don't exist
+map[conn:: maxIdle: password:]
+panic: dial tcp :0: connect: connection refused
+
+goroutine 1 [running]:
+github.com/a285577011/socketio-push/models/redis.NewRedis(0x28)
+	/mnt/hgfs/www/golang/socketserver/models/redis/redis.go:71 +0x422
+github.com/a285577011/socketio-push/models/redis.init.0()
+	/mnt/hgfs/www/golang/socketserver/models/redis/redis.go:263 +0x22
+map[conn:: maxIdle: password:]
+panic: dial tcp :0: connect: connection refused
+
+goroutine 1 [running]:
+github.com/a285577011/socketio-push/models/redis.NewRedis(0x28)
+	/mnt/hgfs/www/golang/socketserver/models/redis/redis.go:70 +0x3ae
+github.com/a285577011/socketio-push/models/redis.init.0()
+	/mnt/hgfs/www/golang/socketserver/models/redis/redis.go:262 +0x22
+map[conn:192.168.66.191:63790 maxIdle:3 password:16273849]
+2019/12/26 11:27:36.903 [1;34m[I][0m [device.go:15]  Connect to [mysql] database with conn: [root:16273849@tcp(192.168.66.191:3307)/gcs?charset=utf8] 
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /grouppush/*any           --> github.com/a285577011/socketio-push/httppush.(*Push).GroupPush-fm (2 handlers)
+[GIN-debug] POST   /singlepush/*any          --> github.com/a285577011/socketio-push/httppush.(*Push).SinglePush-fm (2 handlers)
+[GIN-debug] GET    /socket.io/*any           --> github.com/gin-gonic/gin.WrapH.func1 (2 handlers)
+[GIN-debug] POST   /socket.io/*any           --> github.com/gin-gonic/gin.WrapH.func1 (2 handlers)
+start...
+connected: 1
+join:imie-868524021352653
+connected: 2
+join:imie-868524021281324
+connected: 3
+join:imie-hyy
+2019/12/26 11:27:53 Shutdown Server ...
+2019/12/26 11:27:53 Server exiting
+map[conn:192.168.66.191:63790 maxIdle:3 password:16273849]
+2019/12/26 11:27:54.725 [1;34m[I][0m [device.go:15]  Connect to [mysql] database with conn: [root:16273849@tcp(192.168.66.191:3307)/gcs?charset=utf8] 
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /grouppush/*any           --> github.com/a285577011/socketio-push/httppush.(*Push).GroupPush-fm (2 handlers)
+[GIN-debug] POST   /singlepush/*any          --> github.com/a285577011/socketio-push/httppush.(*Push).SinglePush-fm (2 handlers)
+[GIN-debug] GET    /socket.io/*any           --> github.com/gin-gonic/gin.WrapH.func1 (2 handlers)
+[GIN-debug] POST   /socket.io/*any           --> github.com/gin-gonic/gin.WrapH.func1 (2 handlers)
+start...
+connected: 1
+join:imie-868524021281324
+connected: 2
+join:imie-868524021352653
+connected: 3
+join:imie-hyy
+2019/12/26 11:31:06 Shutdown Server ...
+2019/12/26 11:31:06 Server exiting
+map[conn:192.168.66.191:63790 maxIdle:3 password:16273849]
+2019/12/26 11:32:54.315 [1;34m[I][0m [device.go:15]  Connect to [mysql] database with conn: [root:16273849@tcp(192.168.66.191:3307)/gcs?charset=utf8] 
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /grouppush/*any           --> github.com/a285577011/socketio-push/httppush.(*Push).GroupPush-fm (2 handlers)
+[GIN-debug] POST   /singlepush/*any          --> github.com/a285577011/socketio-push/httppush.(*Push).SinglePush-fm (2 handlers)
+[GIN-debug] GET    /socket.io/*any           --> github.com/gin-gonic/gin.WrapH.func1 (2 handlers)
+[GIN-debug] POST   /socket.io/*any           --> github.com/gin-gonic/gin.WrapH.func1 (2 handlers)
+start...
+connected: 1
+join:imie-hyy
+connected: 2
+join:imie-868524021281324
+connected: 3
+join:imie-868524021352653

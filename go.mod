@@ -1,4 +1,4 @@
-module socketio
+module github.com/a285577011/socketio-push
 
 go 1.13
 

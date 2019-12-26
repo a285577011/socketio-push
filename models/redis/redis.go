@@ -58,12 +58,13 @@ var RedisModel *Redis
 // NewRedisCache create new redis cache with default collection name.
 func NewRedis() *Redis {
 	redis:=&Redis{key: DefaultKey,dbNum:6}
-	beego.LoadAppConfig("ini", "./conf/db.conf")
+	beego.LoadAppConfig("ini", "../conf/db.conf")
 	conifg := map[string]string{
 		"conn":     beego.AppConfig.String("redis::ip") + ":" + beego.AppConfig.String("redis::port"),
 		"password": beego.AppConfig.String("redis::passw"),
 		"maxIdle":beego.AppConfig.String("redis::maxIdle"),
 	}
+	fmt.Println(conifg)
 	err := redis.StartAndGC(conifg)
 	if err != nil {
 		panic(err)

@@ -3,8 +3,8 @@ package httppush
 import (
 	"github.com/gin-gonic/gin"
 	socketio "github.com/googollee/go-socket.io"
-	conn2 "socketio/conn"
-	"socketio/models/redis"
+	conn2 "github.com/a285577011/socketio-push/conn"
+	"github.com/a285577011/socketio-push/models/redis"
 	"strconv"
 	"time"
 
