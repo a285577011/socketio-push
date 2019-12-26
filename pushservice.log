@@ -443,3 +443,90 @@ connected: 2
 join:imie-868524021281324
 connected: 3
 join:imie-868524021352653
+disconnect:imie- 868524021352653
+disconnect:connId- 3
+2019-12-26 11:34:01 meet error: read tcp 192.168.66.166:5050->192.168.66.209:51181: i/o timeout
+connected: 4
+join:imie-868524021352653
+2019-12-26 11:39:58 meet error: read tcp 192.168.66.166:5050->192.168.66.209:51227: i/o timeout
+disconnect:imie- 868524021352653
+disconnect:connId- 4
+connected: 5
+join:imie-868524021352653
+disconnect:imie- 868524021352653
+disconnect:connId- 5
+2019-12-26 11:48:56 meet error: read tcp 192.168.66.166:5050->192.168.66.209:51331: read: connection reset by peer
+2019/12/26 11:58:02 Shutdown Server ...
+2019/12/26 11:58:02 Server exiting
+map[conn:192.168.66.191:63790 maxIdle:3 password:16273849]
+2019/12/26 11:58:03.560 [1;34m[I][0m [device.go:15]  Connect to [mysql] database with conn: [root:16273849@tcp(192.168.66.191:3307)/gcs?charset=utf8] 
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /grouppush/*any           --> github.com/a285577011/socketio-push/httppush.(*Push).GroupPush-fm (2 handlers)
+[GIN-debug] POST   /singlepush/*any          --> github.com/a285577011/socketio-push/httppush.(*Push).SinglePush-fm (2 handlers)
+[GIN-debug] GET    /socket.io/*any           --> github.com/gin-gonic/gin.WrapH.func1 (2 handlers)
+[GIN-debug] POST   /socket.io/*any           --> github.com/gin-gonic/gin.WrapH.func1 (2 handlers)
+start...
+connected: 1
+connected: 2
+join:imie-hyy
+join:imie-868524021281324
+connected: 3
+join:imie-868524021352653
+2019/12/26 13:47:33 Shutdown Server ...
+2019/12/26 13:47:33 Server exiting
+map[conn:192.168.66.191:63790 maxIdle:3 password:16273849]
+2019/12/26 13:47:35.106 [1;34m[I][0m [device.go:15]  Connect to [mysql] database with conn: [root:16273849@tcp(192.168.66.191:3307)/gcs?charset=utf8] 
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /grouppush/*any           --> socketserver/httppush.(*Push).GroupPush-fm (2 handlers)
+[GIN-debug] POST   /singlepush/*any          --> socketserver/httppush.(*Push).SinglePush-fm (2 handlers)
+[GIN-debug] POST   /imieisconn/*any          --> socketserver/httppush.(*Push).CheckIsConn-fm (2 handlers)
+[GIN-debug] GET    /socket.io/*any           --> github.com/gin-gonic/gin.WrapH.func1 (2 handlers)
+[GIN-debug] POST   /socket.io/*any           --> github.com/gin-gonic/gin.WrapH.func1 (2 handlers)
+start...
+connected: 1
+join:imie-868524021281324
+connected: 2
+join:imie-868524021352653
+connected: 3
+join:imie-hyy
+disconnect:imie- hyy
+disconnect:connId- 3
+2019-12-26 13:54:56 meet error: websocket: close 1001 (going away)
+connected: 4
+join:imie-hyy
+disconnect:imie- hyy
+disconnect:connId- 4
+2019-12-26 13:55:11 meet error: websocket: close 1001 (going away)
+2019/12/26 14:05:56 Shutdown Server ...
+2019/12/26 14:05:56 Server exiting
+2019/12/26 14:05:57.903 [1;34m[I][0m [device.go:15]  Connect to [mysql] database with conn: [root:16273849@tcp(192.168.66.191:3307)/gcs?charset=utf8] 
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /grouppush/*any           --> socketserver/httppush.(*Push).GroupPush-fm (2 handlers)
+[GIN-debug] POST   /singlepush/*any          --> socketserver/httppush.(*Push).SinglePush-fm (2 handlers)
+[GIN-debug] POST   /imieisconn/*any          --> socketserver/httppush.(*Push).CheckIsConn-fm (2 handlers)
+[GIN-debug] GET    /socket.io/*any           --> github.com/gin-gonic/gin.WrapH.func1 (2 handlers)
+[GIN-debug] POST   /socket.io/*any           --> github.com/gin-gonic/gin.WrapH.func1 (2 handlers)
+2019/12/26 14:05:57 start...
+2019/12/26 14:06:03 connected: 1
+2019/12/26 14:06:12 join:imie-868524021352653
+2019/12/26 14:06:25 connected: 2
+2019/12/26 14:06:26 join:imie-868524021281324
+2019/12/26 14:06:26 disconnect:imie- 868524021281324
+2019/12/26 14:06:26 disconnect:connId- 2
+2019/12/26 14:06:26 2019-12-26 14:06:26 meet error: websocket: close 1006 (abnormal closure): unexpected EOF
+2019/12/26 14:06:29 connected: 3
+2019/12/26 14:06:29 join:imie-hyy
+2019/12/26 14:06:33 connected: 4
+2019/12/26 14:06:33 join:imie-868524021281324

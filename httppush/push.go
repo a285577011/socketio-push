@@ -3,8 +3,8 @@ package httppush
 import (
 	"github.com/gin-gonic/gin"
 	socketio "github.com/googollee/go-socket.io"
-	conn2 "github.com/a285577011/socketio-push/conn"
-	"github.com/a285577011/socketio-push/models/redis"
+	conn2 "socketserver/conn"
+	"socketserver/models/redis"
 	"strconv"
 	"time"
 
@@ -77,4 +77,20 @@ func (this *Push) GetMsgId() string{
 	id,_:=redis.RedisModel.Incr(key)
 	idstr:=strconv.Itoa(id)
 	return idstr
+}
+func (this *Push) CheckIsConn(c *gin.Context) {
+	imie := c.PostForm("imie")
+	_,ok1:=conn2.ImieMap.Load(imie)
+	if !ok1{
+		c.JSON(200,gin.H{
+			"code":202,
+			"msg":"imie未连接",
+		})
+		return
+	}
+	c.JSON(200,gin.H{
+		"code":0,
+		"msg":"已连接",
+	})
+	return
 }

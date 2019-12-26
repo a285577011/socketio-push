@@ -64,7 +64,6 @@ func NewRedis() *Redis {
 		"password": beego.AppConfig.String("redis::passw"),
 		"maxIdle":beego.AppConfig.String("redis::maxIdle"),
 	}
-	fmt.Println(conifg)
 	err := redis.StartAndGC(conifg)
 	if err != nil {
 		panic(err)
