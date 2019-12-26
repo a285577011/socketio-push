@@ -1,0 +1,301 @@
+2019/12/26 09:28:12.451 [1;34m[I][0m [device.go:15]  Connect to [mysql] database with conn: [root:16273849@tcp(192.168.66.191:3307)/gcs?charset=utf8] 
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /grouppush/*any           --> socketio/httppush.(*Push).GroupPush-fm (2 handlers)
+[GIN-debug] POST   /singlepush/*any          --> socketio/httppush.(*Push).SinglePush-fm (2 handlers)
+[GIN-debug] GET    /socket.io/*any           --> github.com/gin-gonic/gin.WrapH.func1 (2 handlers)
+[GIN-debug] POST   /socket.io/*any           --> github.com/gin-gonic/gin.WrapH.func1 (2 handlers)
+start...
+connected: 1
+join:imie-868524021281324
+connected: 2
+join:imie-868524021352653
+join:imie-868524021352653
+join:imie-868524021352653
+join:imie-868524021352653
+join:imie-868524021352653
+connected: 3
+join:imie-hyy
+disconnect:imie- hyy
+disconnect:connId- 3
+2019-12-26 09:28:35 meet error: websocket: close 1001 (going away)
+connected: 4
+join:imie-hyy
+2019/12/26 09:28:47 Shutdown Server ...
+2019/12/26 09:28:47 Server exiting
+2019/12/26 09:30:25.289 [1;34m[I][0m [device.go:15]  Connect to [mysql] database with conn: [root:16273849@tcp(192.168.66.191:3307)/gcs?charset=utf8] 
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /grouppush/*any           --> socketio/httppush.(*Push).GroupPush-fm (2 handlers)
+[GIN-debug] POST   /singlepush/*any          --> socketio/httppush.(*Push).SinglePush-fm (2 handlers)
+[GIN-debug] GET    /socket.io/*any           --> github.com/gin-gonic/gin.WrapH.func1 (2 handlers)
+[GIN-debug] POST   /socket.io/*any           --> github.com/gin-gonic/gin.WrapH.func1 (2 handlers)
+start...
+connected: 1
+join:imie-868524021352653
+join:imie-868524021352653
+join:imie-868524021352653
+join:imie-868524021352653
+join:imie-868524021352653
+connected: 2
+join:imie-868524021281324
+connected: 3
+join:imie-hyy
+disconnect:imie- hyy
+disconnect:connId- 3
+2019-12-26 09:30:42 meet error: websocket: close 1001 (going away)
+connected: 4
+join:imie-hyy
+2019/12/26 09:30:50 Shutdown Server ...
+2019/12/26 09:30:50 Server exiting
+2019/12/26 09:30:50.726 [1;34m[I][0m [device.go:15]  Connect to [mysql] database with conn: [root:16273849@tcp(192.168.66.191:3307)/gcs?charset=utf8] 
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /grouppush/*any           --> socketio/httppush.(*Push).GroupPush-fm (2 handlers)
+[GIN-debug] POST   /singlepush/*any          --> socketio/httppush.(*Push).SinglePush-fm (2 handlers)
+[GIN-debug] GET    /socket.io/*any           --> github.com/gin-gonic/gin.WrapH.func1 (2 handlers)
+[GIN-debug] POST   /socket.io/*any           --> github.com/gin-gonic/gin.WrapH.func1 (2 handlers)
+start...
+connected: 1
+join:imie-hyy
+connected: 2
+join:imie-868524021352653
+join:imie-868524021352653
+join:imie-868524021352653
+join:imie-868524021352653
+join:imie-868524021352653
+connected: 3
+join:imie-868524021281324
+disconnect:imie- hyy
+disconnect:connId- 1
+2019-12-26 09:31:00 meet error: websocket: close 1001 (going away)
+connected: 4
+join:imie-hyy
+disconnect:imie- 868524021281324
+disconnect:connId- 3
+2019-12-26 09:32:07 meet error: websocket: close 1006 (abnormal closure): unexpected EOF
+connected: 5
+join:imie-868524021281324
+disconnect:imie- 868524021352653
+disconnect:connId- 2
+2019-12-26 09:32:36 meet error: websocket: close 1006 (abnormal closure): unexpected EOF
+connected: 6
+join:imie-868524021352653
+2019/12/26 09:33:00 Shutdown Server ...
+2019/12/26 09:33:00 Server exiting
+2019/12/26 09:33:00.769 [1;34m[I][0m [device.go:15]  Connect to [mysql] database with conn: [root:16273849@tcp(192.168.66.191:3307)/gcs?charset=utf8] 
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /grouppush/*any           --> socketio/httppush.(*Push).GroupPush-fm (2 handlers)
+[GIN-debug] POST   /singlepush/*any          --> socketio/httppush.(*Push).SinglePush-fm (2 handlers)
+[GIN-debug] GET    /socket.io/*any           --> github.com/gin-gonic/gin.WrapH.func1 (2 handlers)
+[GIN-debug] POST   /socket.io/*any           --> github.com/gin-gonic/gin.WrapH.func1 (2 handlers)
+start...
+connected: 1
+join:imie-868524021281324
+connected: 2
+join:imie-868524021352653
+connected: 3
+join:imie-hyy
+disconnect:imie- 868524021352653
+disconnect:connId- 2
+2019-12-26 09:36:01 meet error: websocket: close 1006 (abnormal closure): unexpected EOF
+connected: 4
+join:imie-868524021352653
+disconnect:imie- 868524021352653
+disconnect:connId- 4
+2019-12-26 09:36:24 meet error: websocket: close 1006 (abnormal closure): unexpected EOF
+connected: 5
+join:imie-868524021352653
+connected: 6
+join:imie-868524021352653
+disconnect:imie- 868524021352653
+disconnect:connId- 5
+2019-12-26 09:37:36 meet error: read tcp 192.168.66.166:5050->192.168.66.209:63796: i/o timeout
+connected: 7
+join:imie-868524021352653
+disconnect:imie- 868524021352653
+disconnect:connId- 6
+2019-12-26 09:37:51 meet error: read tcp 192.168.66.166:5050->192.168.66.209:63806: i/o timeout
+disconnect:imie- 868524021352653
+disconnect:connId- 7
+2019-12-26 09:38:06 meet error: websocket: close 1006 (abnormal closure): unexpected EOF
+connected: 8
+join:imie-868524021352653
+disconnect:imie- 868524021352653
+disconnect:connId- 8
+connected: 9
+join:imie-868524021352653
+join:imie-868524021352653
+disconnect:imie- 868524021352653
+disconnect:connId- 9
+connected: a
+join:imie-868524021352653
+join:imie-868524021352653
+join:imie-868524021352653
+disconnect:imie- 868524021352653
+disconnect:connId- a
+2019-12-26 09:43:34 meet error: websocket: close 1006 (abnormal closure): unexpected EOF
+connected: b
+join:imie-868524021352653
+disconnect:imie- 868524021352653
+disconnect:connId- b
+2019-12-26 09:52:22 meet error: websocket: close 1006 (abnormal closure): unexpected EOF
+connected: c
+join:imie-868524021352653
+disconnect:imie- 868524021352653
+disconnect:connId- c
+connected: d
+join:imie-868524021352653
+join:imie-868524021352653
+disconnect:imie- 868524021352653
+disconnect:connId- d
+connected: e
+join:imie-868524021352653
+join:imie-868524021352653
+join:imie-868524021352653
+2019/12/26 10:02:45 Shutdown Server ...
+2019/12/26 10:02:45 Server exiting
+2019/12/26 10:02:58.610 [1;34m[I][0m [device.go:15]  Connect to [mysql] database with conn: [root:16273849@tcp(192.168.66.191:3307)/gcs?charset=utf8] 
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /grouppush/*any           --> socketio/httppush.(*Push).GroupPush-fm (2 handlers)
+[GIN-debug] POST   /singlepush/*any          --> socketio/httppush.(*Push).SinglePush-fm (2 handlers)
+[GIN-debug] GET    /socket.io/*any           --> github.com/gin-gonic/gin.WrapH.func1 (2 handlers)
+[GIN-debug] POST   /socket.io/*any           --> github.com/gin-gonic/gin.WrapH.func1 (2 handlers)
+start...
+connected: 1
+join:imie-hyy
+connected: 2
+join:imie-868524021352653
+join:imie-868524021352653
+join:imie-868524021352653
+connected: 3
+join:imie-868524021281324
+2019/12/26 10:04:25.305 [1;34m[I][0m [device.go:15]  Connect to [mysql] database with conn: [root:16273849@tcp(192.168.66.191:3307)/gcs?charset=utf8] 
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /grouppush/*any           --> socketio/httppush.(*Push).GroupPush-fm (2 handlers)
+[GIN-debug] POST   /singlepush/*any          --> socketio/httppush.(*Push).SinglePush-fm (2 handlers)
+[GIN-debug] GET    /socket.io/*any           --> github.com/gin-gonic/gin.WrapH.func1 (2 handlers)
+[GIN-debug] POST   /socket.io/*any           --> github.com/gin-gonic/gin.WrapH.func1 (2 handlers)
+start...
+2019/12/26 10:04:25 listen: listen tcp :5050: bind: address already in use
+2019/12/26 10:04:58 Shutdown Server ...
+2019/12/26 10:04:58 Server exiting
+2019/12/26 10:05:10.707 [1;34m[I][0m [device.go:15]  Connect to [mysql] database with conn: [root:16273849@tcp(192.168.66.191:3307)/gcs?charset=utf8] 
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /grouppush/*any           --> socketio/httppush.(*Push).GroupPush-fm (2 handlers)
+[GIN-debug] POST   /singlepush/*any          --> socketio/httppush.(*Push).SinglePush-fm (2 handlers)
+[GIN-debug] GET    /socket.io/*any           --> github.com/gin-gonic/gin.WrapH.func1 (2 handlers)
+[GIN-debug] POST   /socket.io/*any           --> github.com/gin-gonic/gin.WrapH.func1 (2 handlers)
+start...
+connected: 1
+join:imie-868524021352653
+join:imie-868524021352653
+join:imie-868524021352653
+connected: 2
+join:imie-hyy
+connected: 3
+join:imie-868524021281324
+2019/12/26 10:06:03.274 [1;34m[I][0m [device.go:15]  Connect to [mysql] database with conn: [root:16273849@tcp(192.168.66.191:3307)/gcs?charset=utf8] 
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /grouppush/*any           --> socketio/httppush.(*Push).GroupPush-fm (2 handlers)
+[GIN-debug] POST   /singlepush/*any          --> socketio/httppush.(*Push).SinglePush-fm (2 handlers)
+[GIN-debug] GET    /socket.io/*any           --> github.com/gin-gonic/gin.WrapH.func1 (2 handlers)
+[GIN-debug] POST   /socket.io/*any           --> github.com/gin-gonic/gin.WrapH.func1 (2 handlers)
+start...
+2019/12/26 10:06:03 listen: listen tcp :5050: bind: address already in use
+disconnect:imie- hyy
+disconnect:connId- 2
+2019-12-26 10:08:40 meet error: websocket: close 1001 (going away)
+connected: 4
+join:imie-hyy
+2019/12/26 10:09:11.224 [1;34m[I][0m [device.go:15]  Connect to [mysql] database with conn: [root:16273849@tcp(192.168.66.191:3307)/gcs?charset=utf8] 
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /grouppush/*any           --> socketio/httppush.(*Push).GroupPush-fm (2 handlers)
+[GIN-debug] POST   /singlepush/*any          --> socketio/httppush.(*Push).SinglePush-fm (2 handlers)
+[GIN-debug] GET    /socket.io/*any           --> github.com/gin-gonic/gin.WrapH.func1 (2 handlers)
+[GIN-debug] POST   /socket.io/*any           --> github.com/gin-gonic/gin.WrapH.func1 (2 handlers)
+start...
+2019/12/26 10:09:11 listen: listen tcp :5050: bind: address already in use
+2019/12/26 10:10:34.629 [1;34m[I][0m [device.go:15]  Connect to [mysql] database with conn: [root:16273849@tcp(192.168.66.191:3307)/gcs?charset=utf8] 
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /grouppush/*any           --> socketio/httppush.(*Push).GroupPush-fm (2 handlers)
+[GIN-debug] POST   /singlepush/*any          --> socketio/httppush.(*Push).SinglePush-fm (2 handlers)
+[GIN-debug] GET    /socket.io/*any           --> github.com/gin-gonic/gin.WrapH.func1 (2 handlers)
+[GIN-debug] POST   /socket.io/*any           --> github.com/gin-gonic/gin.WrapH.func1 (2 handlers)
+start...
+2019/12/26 10:10:34 listen: listen tcp :5050: bind: address already in use
+2019/12/26 10:11:26.803 [1;34m[I][0m [device.go:15]  Connect to [mysql] database with conn: [root:16273849@tcp(192.168.66.191:3307)/gcs?charset=utf8] 
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /grouppush/*any           --> socketio/httppush.(*Push).GroupPush-fm (2 handlers)
+[GIN-debug] POST   /singlepush/*any          --> socketio/httppush.(*Push).SinglePush-fm (2 handlers)
+[GIN-debug] GET    /socket.io/*any           --> github.com/gin-gonic/gin.WrapH.func1 (2 handlers)
+[GIN-debug] POST   /socket.io/*any           --> github.com/gin-gonic/gin.WrapH.func1 (2 handlers)
+start...
+2019/12/26 10:11:26 listen: listen tcp :5050: bind: address already in use
+2019/12/26 10:14:02 Shutdown Server ...
+2019/12/26 10:14:02 Server exiting
+2019/12/26 10:14:03.719 [1;34m[I][0m [device.go:15]  Connect to [mysql] database with conn: [root:16273849@tcp(192.168.66.191:3307)/gcs?charset=utf8] 
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /grouppush/*any           --> socketio/httppush.(*Push).GroupPush-fm (2 handlers)
+[GIN-debug] POST   /singlepush/*any          --> socketio/httppush.(*Push).SinglePush-fm (2 handlers)
+[GIN-debug] GET    /socket.io/*any           --> github.com/gin-gonic/gin.WrapH.func1 (2 handlers)
+[GIN-debug] POST   /socket.io/*any           --> github.com/gin-gonic/gin.WrapH.func1 (2 handlers)
+start...
+connected: 1
+join:imie-868524021281324
+connected: 2
+join:imie-868524021352653
+join:imie-868524021352653
+join:imie-868524021352653
+connected: 3
+join:imie-hyy
+disconnect:imie- 868524021352653
+disconnect:connId- 2
+2019-12-26 10:17:51 meet error: websocket: close 1006 (abnormal closure): unexpected EOF
+connected: 4
+join:imie-868524021352653

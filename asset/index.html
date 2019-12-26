@@ -18,31 +18,22 @@
 <form action="">
     <input id="m" autocomplete="off" /><button>Send</button>
 </form>
-<script src="https://lib.baomitu.com/socket.io/2.3.0/socket.io.js" charset="utf-8"></script>
+<script src="https://cdn.socket.io/socket.io-1.2.0.js"></script>
 <script src="https://code.jquery.com/jquery-1.11.1.js"></script>
 <script>
-    var socket = io("http://192.168.66.166:9999",
-        {
-            transports: ['websocket'],
-            'force new connection': true,
-            query: 'imie=hyy',
-        });
-    socket.on('connect', () => {
-        const id = socket.id;
-        socket.emit('join', 'hyy','hyy');
-    });
+    var socket = io("http://192.168.66.213:5050");
     // socket.emit('msg', 'hello');
-   // var s2 = io("http://192.168.66.166:5050/chat");
-    socket.on('task', function(msg,msgId){
-        $('#messages').append($('<li>').text(msg+msgId));
-        socket.emit('task-reply',msgId);
+    //var s2 = io("http://192.168.66.213:5050");
+    socket.on('reply', function(msg,msg2){
+        $('#messages').append($('<li>').text(msg));
+        alert(msg2)
     });
     $('form').submit(function(){
         //s2.emit('msg', $('#m').val(), function(data){
-           // $('#messages').append($('<li>').text('ACK CALLBACK: ' + data));
-       // });
+        // $('#messages').append($('<li>').text('ACK CALLBACK: ' + data));
+        //});
         socket.emit('notice', $('#m').val());
-        $('#m').val('');cd 
+        $('#m').val('');
         return false;
     });
 </script>
