@@ -1,0 +1,111 @@
+2019/12/26 14:32:15.605 [1;34m[I][0m [device.go:15]  Connect to [mysql] database with conn: [root:16273849@tcp(192.168.66.191:3307)/gcs?charset=utf8] 
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /grouppush/*any           --> socketserver/httppush.(*Push).GroupPush-fm (2 handlers)
+[GIN-debug] POST   /singlepush/*any          --> socketserver/httppush.(*Push).SinglePush-fm (2 handlers)
+[GIN-debug] POST   /imieisconn/*any          --> socketserver/httppush.(*Push).CheckIsConn-fm (2 handlers)
+[GIN-debug] GET    /socket.io/*any           --> github.com/gin-gonic/gin.WrapH.func1 (2 handlers)
+[GIN-debug] POST   /socket.io/*any           --> github.com/gin-gonic/gin.WrapH.func1 (2 handlers)
+2019/12/26 14:32:15 start...
+2019/12/26 14:32:15 listen: listen tcp: address 5050: missing port in address
+2019/12/26 14:33:41.058 [1;34m[I][0m [device.go:15]  Connect to [mysql] database with conn: [root:16273849@tcp(192.168.66.191:3307)/gcs?charset=utf8] 
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /grouppush/*any           --> socketserver/httppush.(*Push).GroupPush-fm (2 handlers)
+[GIN-debug] POST   /singlepush/*any          --> socketserver/httppush.(*Push).SinglePush-fm (2 handlers)
+[GIN-debug] POST   /imieisconn/*any          --> socketserver/httppush.(*Push).CheckIsConn-fm (2 handlers)
+[GIN-debug] GET    /socket.io/*any           --> github.com/gin-gonic/gin.WrapH.func1 (2 handlers)
+[GIN-debug] POST   /socket.io/*any           --> github.com/gin-gonic/gin.WrapH.func1 (2 handlers)
+2019/12/26 14:33:41 start...
+2019/12/26 14:33:41 listen: listen tcp: address 5050: missing port in address
+2019/12/26 14:35:22.818 [1;34m[I][0m [device.go:15]  Connect to [mysql] database with conn: [root:16273849@tcp(192.168.66.191:3307)/gcs?charset=utf8] 
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] POST   /grouppush/*any           --> socketserver/httppush.(*Push).GroupPush-fm (2 handlers)
+[GIN-debug] POST   /singlepush/*any          --> socketserver/httppush.(*Push).SinglePush-fm (2 handlers)
+[GIN-debug] POST   /imieisconn/*any          --> socketserver/httppush.(*Push).CheckIsConn-fm (2 handlers)
+[GIN-debug] GET    /socket.io/*any           --> github.com/gin-gonic/gin.WrapH.func1 (2 handlers)
+[GIN-debug] POST   /socket.io/*any           --> github.com/gin-gonic/gin.WrapH.func1 (2 handlers)
+2019/12/26 14:35:22 start...
+2019/12/26 14:35:23 connected: 1
+2019/12/26 14:35:23 join:imie-868524021281324
+2019/12/26 14:35:26 connected: 2
+2019/12/26 14:35:26 join:imie-868524021352653
+2019/12/26 14:35:30 connected: 3
+2019/12/26 14:35:30 join:imie-hyy
+2019/12/26 14:36:09 disconnect:imie- hyy
+2019/12/26 14:36:09 disconnect:connId- 3
+2019/12/26 14:36:09 2019-12-26 14:36:09 meet error: websocket: close 1001 (going away)
+2019/12/26 14:36:09 connected: 4
+2019/12/26 14:36:09 join:imie-hyy
+2019/12/26 14:47:00 disconnect:imie- hyy
+2019/12/26 14:47:00 disconnect:connId- 4
+2019/12/26 14:47:00 2019-12-26 14:47:00 meet error: websocket: close 1001 (going away)
+2019/12/26 14:51:19 connected: 5
+2019/12/26 14:51:19 join:imie-hyy
+2019/12/26 14:51:23 disconnect:imie- hyy
+2019/12/26 14:51:23 disconnect:connId- 5
+2019/12/26 14:51:23 2019-12-26 14:51:23 meet error: websocket: close 1001 (going away)
+2019/12/26 14:51:24 connected: 6
+2019/12/26 14:51:24 join:imie-hyy
+2019/12/26 14:51:25 disconnect:imie- hyy
+2019/12/26 14:51:25 disconnect:connId- 6
+2019/12/26 14:51:25 2019-12-26 14:51:25 meet error: websocket: close 1001 (going away)
+2019/12/26 14:51:25 connected: 7
+2019/12/26 14:51:25 join:imie-hyy
+2019/12/26 14:51:25 disconnect:imie- hyy
+2019/12/26 14:51:25 disconnect:connId- 7
+2019/12/26 14:51:25 2019-12-26 14:51:25 meet error: websocket: close 1001 (going away)
+2019/12/26 14:51:27 connected: 8
+2019/12/26 14:51:27 join:imie-hyy
+2019/12/26 14:51:27 disconnect:imie- hyy
+2019/12/26 14:51:27 disconnect:connId- 8
+2019/12/26 14:51:27 2019-12-26 14:51:27 meet error: websocket: close 1001 (going away)
+2019/12/26 14:51:27 connected: 9
+2019/12/26 14:51:27 join:imie-hyy
+2019/12/26 14:51:41 disconnect:imie- hyy
+2019/12/26 14:51:41 disconnect:connId- 9
+2019/12/26 14:51:41 2019-12-26 14:51:41 meet error: websocket: close 1001 (going away)
+2019/12/26 14:51:41 connected: a
+2019/12/26 14:51:41 join:imie-hyy
+2019/12/26 14:51:52 disconnect:imie- hyy
+2019/12/26 14:51:52 disconnect:connId- a
+2019/12/26 14:51:52 2019-12-26 14:51:52 meet error: websocket: close 1001 (going away)
+2019/12/26 14:54:48 connected: b
+2019/12/26 14:54:48 join:imie-hyy
+2019/12/26 14:55:36 disconnect:imie- hyy
+2019/12/26 14:55:36 disconnect:connId- b
+2019/12/26 14:55:36 2019-12-26 14:55:36 meet error: websocket: close 1001 (going away)
+2019/12/26 14:55:36 connected: c
+2019/12/26 14:55:36 join:imie-hyy
+2019/12/26 15:02:12 disconnect:imie- hyy
+2019/12/26 15:02:12 disconnect:connId- c
+2019/12/26 15:02:12 2019-12-26 15:02:12 meet error: websocket: close 1006 (abnormal closure): unexpected EOF
+2019/12/26 15:02:14 connected: d
+2019/12/26 15:02:14 join:imie-hyy
+2019/12/26 15:02:22 disconnect:imie- hyy
+2019/12/26 15:02:22 disconnect:connId- d
+2019/12/26 15:02:22 2019-12-26 15:02:22 meet error: websocket: close 1001 (going away)
+2019/12/26 15:02:23 connected: e
+2019/12/26 15:02:23 join:imie-hyy
+2019/12/26 15:04:25 disconnect:imie- hyy
+2019/12/26 15:04:25 disconnect:connId- e
+2019/12/26 15:04:25 2019-12-26 15:04:25 meet error: websocket: close 1006 (abnormal closure): unexpected EOF
+2019/12/26 15:04:27 connected: f
+2019/12/26 15:04:27 join:imie-hyy
+2019/12/26 15:04:32 disconnect:imie- hyy
+2019/12/26 15:04:32 disconnect:connId- f
+2019/12/26 15:04:32 2019-12-26 15:04:32 meet error: websocket: close 1001 (going away)
+2019/12/26 15:04:33 connected: g
+2019/12/26 15:04:33 join:imie-hyy
+2019/12/26 15:26:34 Shutdown Server ...
+2019/12/26 15:26:34 Server exiting

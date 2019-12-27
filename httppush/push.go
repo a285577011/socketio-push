@@ -33,6 +33,7 @@ func (this *Push) GroupPush(c *gin.Context) {
 		})
 		return
 	}
+	//log.Println(this.ioServer.RoomLen(conn2.GetDefaultGroup()))
 	this.ioServer.BroadcastToRoom(group,conn2.GetDefaultEvent(),msg)
 	c.JSON(200,gin.H{
 		"code":0,

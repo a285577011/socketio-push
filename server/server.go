@@ -17,6 +17,7 @@ import (
 	"strings"
 	"syscall"
 	"time"
+	"github.com/DeanThompson/ginpprof"
 )
 
 type Server struct {
@@ -28,8 +29,10 @@ func NewServer() *Server {
 }
 func (this *Server) SocketMiddleware(allowOrigin string) gin.HandlerFunc {
 	return func(c *gin.Context) {
+
 		ip := c.ClientIP()
 		imie := c.Query("imie")
+		//log.Println("IMIE"+imie)
 		if imie == "" {
 			c.AbortWithStatus(602)
 			return
@@ -64,7 +67,6 @@ func (this *Server) SocketMiddleware(allowOrigin string) gin.HandlerFunc {
 func (this *Server) HttpMiddleware() gin.HandlerFunc {
 	return func(c *gin.Context) {
 		ip := c.ClientIP()
-		beego.LoadAppConfig("ini", "../conf/common.conf")
 		key := beego.AppConfig.String("allowPushKey")
 		header := c.Request.Header
 		token, ok := header["Token"]
@@ -93,12 +95,15 @@ func (this *Server) HttpMiddleware() gin.HandlerFunc {
 }
 func (this *Server) Run() {
 	router := gin.New()
+	gin.Logger()
+	beego.LoadAppConfig("ini", "../conf/common.conf")
 	server, err := socketio.NewServer(nil)
 	if err != nil {
 		log.Fatal(err)
 	}
 	server.OnConnect("/", func(s socketio.Conn) error {
 		//s.SetContext("")
+		s.Join(conn.GetDefaultGroup()) //全局分组
 		log.Println("connected:", s.ID())
 		return nil
 	})
@@ -110,7 +115,6 @@ func (this *Server) Run() {
 		s.SetContext(context)
 		conn.ImieMap.Store(imie, s.ID())
 		conn.ConnectionMap.Store(s.ID(), s)
-		s.Join(conn.GetDefaultGroup()) //全局分组
 		//s.Join(s.ID())
 		//s.Emit(conn.GetDefaultEvent(), s.ID())//默认事件推送
 		log.Println("join:imie-" + imie)
@@ -169,10 +173,15 @@ func (this *Server) Run() {
 		router.GET("/socket.io/*any", gin.WrapH(server))
 		router.POST("/socket.io/*any", gin.WrapH(server))
 	}
+	ginpprof.Wrapper(router)
 	log.Println("start...")
 	//router.StaticFS("/public", http.Dir("../asset"))
+	addr:=beego.AppConfig.String("serverPort")
+	if addr==""{
+		addr="5050"
+	}
 	srv := &http.Server{
-		Addr:    ":5050",
+		Addr:    ":"+addr,
 		Handler: router,
 	}
 	go func() {
